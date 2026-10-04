@@ -44,7 +44,7 @@ year = {2012}
 abstract = {A determinantal point process (DPP) is a random process useful for modeling the combinatorial problem of subset selection. In particular, DPPs encourage a random subset Y to contain a diverse set of items selected from a base set Y. For example, we might use a DPP to display a set of news headlines that are relevant to a user's interests while covering a variety of topics. Suppose, however, that we are asked to sequentially select multiple diverse sets of items, for example, displaying new headlines day-by-day. We might want these sets to be diverse not just individually but also through time, offering headlines today that are unlike the ones shown yesterday. In this paper, we construct a Markov DPP (M-DPP) that models a sequence of random sets {Yt}. The proposed M-DPP defines a stationary process that maintains DPP margins. Crucially, the induced union process Zt = Yt u Yt-1 is also marginally DPP-distributed. Jointly, these properties imply that the sequence of random sets are encouraged to be diverse both at a given time step as well as across time steps. We describe an exact, efficient sampling procedure, and a method for incrementally learning a quality measure over items in the base set Y based on external preferences. We apply the M-DPP to the task of sequentially displaying diverse and relevant news articles to a user with topic preferences.},
 author = {Affandi, Raja Hafiz and Kulesza, Alex and Fox, Emily B.},
 pages = {23-32},
-title = {Markov Determinantal Point Processes},
+title = {{M}arkov Determinantal Point Processes},
 year = {2012}
 }
 
@@ -92,7 +92,7 @@ year = {2012}
 abstract = {Multinomial logistic regression is one of the most popular models for modelling the effect of explanatory variables on a subject choice between a set of specified options. This model has found numerous applications in machine learning, psychology or economy. Bayesian inference in this model is non trivial and requires, either to resort to a MetropolisHastings algorithm, or rejection sampling within a Gibbs sampler. In this paper, we propose an alternative model to multinomial logistic regression. The model builds on the Plackett-Luce model, a popular model for multiple comparisons. We show that the introduction of a suitable set of auxiliary variables leads to an Expectation-Maximization algorithm to find Maximum A Posteriori estimates of the parameters. We further provide a full Bayesian treatment by deriving a Gibbs sampler, which only requires to sample from highly standard distributions. We also propose a variational approximate inference scheme. All are very simple to implement. One property of our Plackett-Luce regression model is that it learns a sparse set of feature weights. We compare our method to sparse Bayesian multinomial logistic regression and show that it is competitive, especially in presence of polychotomous data.},
 author = {Archambeau, Cedric and Caron, Francois},
 pages = {81-89},
-title = {Plackett-Luce regression: A new Bayesian model for polychotomous data},
+title = {Plackett-Luce regression: A new {B}ayesian model for polychotomous data},
 year = {2012}
 }
 
@@ -124,7 +124,7 @@ year = {2012}
 abstract = {Much effort has been directed at algorithms for obtaining the highest probability configuration in a probabilistic random field model known as the maximum a posteriori (MAP) inference problem. In many situations, one could benefit from having not just a single solution, but the top M most probable solutions known as the M-Best MAP problem. In this paper, we propose an efficient message-passing based algorithm for solving the M-Best MAP problem. Specifically, our algorithm solves the recently proposed Linear Programming (LP) formulation of M-Best MAP [7], while being orders of magnitude faster than a generic LP-solver. Our approach relies on studying a particular partial Lagrangian relaxation of the M-Best MAP LP which exposes a natural combinatorial structure of the problem that we exploit.},
 author = {Batra, Dhruv},
 pages = {119-128},
-title = {An Efficient Message-Passing Algorithm for the M-Best MAP Problem},
+title = {An Efficient Message-Passing Algorithm for the M-Best {MAP} Problem},
 year = {2012}
 }
 
@@ -164,7 +164,7 @@ year = {2012}
 abstract = {In recent years a number of methods have been developed for automatically learning the (sparse) connectivity structure of Markov Random Fields. These methods are mostly based on L1-regularized optimization which has a number of disadvantages such as the inability to assess model uncertainty and expensive crossvalidation to find the optimal regularization parameter. Moreover, the model's predictive performance may degrade dramatically with a suboptimal value of the regularization parameter (which is sometimes desirable to induce sparseness). We propose a fully Bayesian approach based on a "spike and slab" prior (similar to L0 regularization) that does not suffer from these shortcomings. We develop an approximate MCMC method combining Langevin dynamics and reversible jump MCMC to conduct inference in this model. Experiments show that the proposed model learns a good combination of the structure and parameter values without the need for separate hyper-parameter tuning. Moreover, the model's predictive performance is much more robust than L1-based methods with hyper-parameter settings that induce highly sparse model structures.},
 author = {Chen, Yutian and Welling, Max},
 pages = {172-182},
-title = {Bayesian Structure Learning for Markov Random Fields with a Spike and Slab Prior},
+title = {{B}ayesian Structure Learning for {M}arkov Random Fields with a Spike and Slab Prior},
 year = {2012}
 }
 
@@ -188,7 +188,7 @@ year = {2012}
 abstract = {We target the problem of accuracy and robustness in causal inference from finite data sets. Some state-of-the-art algorithms produce clear output complete with solid theoretical guarantees but are susceptible to propagating erroneous decisions, while others are very adept at handling and representing uncertainty, but need to rely on undesirable assumptions. Our aim is to combine the inherent robustness of the Bayesian approach with the theoretical strength and clarity of constraint-based methods. We use a Bayesian score to obtain probability estimates on the input statements used in a constraint-based procedure. These are subsequently processed in decreasing order of reliability, letting more reliable decisions take precedence in case of con icts, until a single output model is obtained. Tests show that a basic implementation of the resulting Bayesian Constraint-based Causal Discovery (BCCD) algorithm already outperforms established procedures such as FCI and Conservative PC. It can also indicate which causal decisions in the output have high reliability and which do not.},
 author = {Claassen, Tom and Heskes, Tom},
 pages = {205-214},
-title = {A Bayesian Approach to Constraint Based Causal Inference},
+title = {A {B}ayesian Approach to Constraint Based Causal Inference},
 year = {2012}
 }
 
@@ -244,7 +244,7 @@ year = {2012}
 abstract = {We consider the problem of Probably Approximate Correct (PAC) learning of a binary classifier from noisy labeled examples acquired from multiple annotators (each characterized by a respective classification noise rate). First, we consider the complete information scenario, where the learner knows the noise rates of all the annotators. For this scenario, we derive sample complexity bound for the Minimum Disagreement Algorithm (MDA) on the number of labeled examples to be obtained from each annotator. Next, we consider the incomplete information scenario, where each annotator is strategic and holds the respective noise rate as a private information. For this scenario, we design a cost optimal procurement auction mechanism along the lines of Myerson's optimal auction design framework in a non-trivial manner. This mechanism satisfies incentive compatibility property, thereby facilitating the learner to elicit true noise rates of all the annotators.},
 author = {Garg, Dinesh and Bhattacharya, Sourangshu and Sundararajan, S. and Shevade, Shirish},
 pages = {273-283},
-title = {Mechanism Design for Cost Optimal PAC Learning in the Presence of Strategic Noisy Annotators},
+title = {Mechanism Design for Cost Optimal {PAC} Learning in the Presence of Strategic Noisy Annotators},
 year = {2012}
 }
 
@@ -324,7 +324,7 @@ year = {2012}
 abstract = {Herding and kernel herding are deterministic methods of choosing samples which summarise a probability distribution. A related task is choosing samples for estimating integrals using Bayesian quadrature. We show that the criterion minimised when selecting samples in kernel herding is equivalent to the posterior variance in Bayesian quadrature. We then show that sequential Bayesian quadrature can be viewed as a weighted version of kernel herding which achieves performance superior to any other weighted herding method. We demonstrate empirically a rate of convergence faster than O(1/N). Our results also imply an upper bound on the empirical error of the Bayesian quadrature estimate.},
 author = {Huszar, Ferenc and Duvenaud, David},
 pages = {375-384},
-title = {Optimally-Weighted Herding is Bayesian Quadrature},
+title = {Optimally-Weighted Herding is {B}ayesian Quadrature},
 year = {2012}
 }
 
@@ -444,7 +444,7 @@ year = {2012}
 abstract = {Markov networks (MNs) are a powerful way to compactly represent a joint probability distribution, but most MN structure learning methods are very slow, due to the high cost of evaluating candidates structures. Dependency networks (DNs) represent a probability distribution as a set of conditional probability distributions. DNs are very fast to learn, but the conditional distributions may be inconsistent with each other and few inference algorithms support DNs. In this paper, we present a closed-form method for converting a DN into an MN, allowing us to enjoy both the efficiency of DN learning and the convenience of the MN representation. When the DN is consistent, this conversion is exact. For inconsistent DNs, we present averaging methods that significantly improve the approximation. In experiments on 12 standard datasets, our methods are orders of magnitude faster than and often more accurate than combining conditional distributions using weight learning.},
 author = {Lowd, Daniel},
 pages = {531-540},
-title = {Closed-Form Learning of Markov Networks from Dependency Networks},
+title = {Closed-Form Learning of {M}arkov Networks from Dependency Networks},
 year = {2012}
 }
 
@@ -452,7 +452,7 @@ year = {2012}
 abstract = {Most analyses of manipulation of voting schemes have adopted two assumptions that greatly diminish their practical import. First, it is usually assumed that the manipulators have full knowledge of the votes of the nonmanipulating agents. Second, analysis tends to focus on the probability of manipulation rather than its impact on the social choice objective (e.g., social welfare). We relax both of these assumptions by analyzing optimal Bayesian manipulation strategies when the manipulators have only partial probabilistic information about nonmanipulator votes, and assessing the expected loss in social welfare (in the broad sense of the term). We present a general optimization framework for the derivation of optimal manipulation strategies given arbitrary voting rules and distributions over preferences. We theoretically and empirically analyze the optimal manipulability of some popular voting rules using distributions and real data sets that go well beyond the common, but unrealistic, impartial culture assumption. We also shed light on the stark difference between the loss in social welfare and the probability of manipulation by showing that even when manipulation is likely, impact to social welfare is slight (and often negligible).},
 author = {Lu, Tyler and Tang, Pingzhong and Procaccia, Ariel D. and Boutilier, Craig},
 pages = {541-551},
-title = {Bayesian Vote Manipulation: Optimal Strategies and Impact on Welfare},
+title = {{B}ayesian Vote Manipulation: Optimal Strategies and Impact on Welfare},
 year = {2012}
 }
 
@@ -484,7 +484,7 @@ year = {2012}
 abstract = {Joint alignment of a collection of functions is the process of independently transforming the functions so that they appear more similar to each other. Typically, such unsupervised alignment algorithms fail when presented with complex data sets arising from multiple modalities or make restrictive assumptions about the form of the functions or transformations, limiting their generality. We present a transformed Bayesian infinite mixture model that can simultaneously align and cluster a data set. Our model and associated learning scheme offer two key advantages: the optimal number of clusters is determined in a data-driven fashion through the use of a Dirichlet process prior, and it can accommodate any transformation function parameterized by a continuous parameter vector. As a result, it is applicable to a wide range of data types, and transformation functions. We present positive results on synthetic two-dimensional data, on a set of one-dimensional curves, and on various image data sets, showing large improvements over previous work. We discuss several variations of the model and conclude with directions for future work.},
 author = {Mattar, Marwan A. and Hanson, Allen R. and Learned-Miller, Erik G.},
 pages = {582-591},
-title = {Unsupervised Joint Alignment and Clustering using Bayesian Nonparametrics},
+title = {Unsupervised Joint Alignment and Clustering using {B}ayesian Nonparametrics},
 year = {2012}
 }
 
@@ -516,7 +516,7 @@ year = {2012}
 abstract = {We present a novel approach to detecting and utilizing symmetries in probabilistic graphical models with two main contributions. First, we present a scalable approach to computing generating sets of permutation groups representing the symmetries of graphical models. Second, we introduce orbital Markov chains, a novel family of Markov chains leveraging model symmetries to reduce mixing times. We establish an insightful connection between model symmetries and rapid mixing of orbital Markov chains. Thus, we present the first lifted MCMC algorithm for probabilistic graphical models. Both analytical and empirical results demonstrate the effectiveness and efficiency of the approach.},
 author = {Niepert, Mathias},
 pages = {622-632},
-title = {Markov Chains on Orbits of Permutation Groups},
+title = {{M}arkov Chains on Orbits of Permutation Groups},
 year = {2012}
 }
 
@@ -524,7 +524,7 @@ year = {2012}
 abstract = {Learning a Bayesian network structure from data is an NP-hard problem and thus exact algorithms are feasible only for small data sets. Therefore, network structures for larger networks are usually learned with various heuristics. Another approach to scaling up the structure learning is local learning. In local learning, the modeler has one or more target variables that are of special interest; he wants to learn the structure near the target variables and is not interested in the rest of the variables. In this paper, we present a score-based local learning algorithm called SLL. We conjecture that our algorithm is theoretically sound in the sense that it is optimal in the limit of large sample size. Empirical results suggest that SLL is competitive when compared to the constraint-based HITON algorithm. We also study the prospects of constructing the network structure for the whole node set based on local results by presenting two algorithms and comparing them to several heuristics.},
 author = {Niinimaki, Teppo and Parviainen, Pekka},
 pages = {633-642},
-title = {Local Structure Discovery in Bayesian Networks},
+title = {Local Structure Discovery in {B}ayesian Networks},
 year = {2012}
 }
 
@@ -532,7 +532,7 @@ year = {2012}
 abstract = {A nonparametric approach for policy learning for POMDPs is proposed. The approach represents distributions over the states, observations, and actions as embeddings in feature spaces, which are reproducing kernel Hilbert spaces. Distributions over states given the observations are obtained by applying the kernel Bayes' rule to these distribution embeddings. Policies and value functions are defined on the feature space over states, which leads to a feature space expression for the Bellman equation. Value iteration may then be used to estimate the optimal value function and associated policy. Experimental results confirm that the correct policy is learned using the feature space representation.},
 author = {Nishiyama, Yu and Boularias, Abdeslam and Gretton, Arthur and Fukumizu, Kenji},
 pages = {643-652},
-title = {Hilbert Space Embeddings of POMDPs},
+title = {{H}ilbert Space Embeddings of POMDPs},
 year = {2012}
 }
 
@@ -540,7 +540,7 @@ year = {2012}
 abstract = {Cooperative Bayesian games (BGs) can model decision-making problems for teams of agents under imperfect information, but require space and computation time that is exponential in the number of agents. While agent independence has been used to mitigate these problems in perfect information settings, we propose a novel approach for BGs based on the observation that BGs additionally possess a different types of structure, which we call type independence. We propose a factor graph representation that captures both forms of independence and present a theoretical analysis showing that non-serial dynamic programming cannot effectively exploit type independence, while Max-Sum can. Experimental results demonstrate that our approach can tackle cooperative Bayesian games of unprecedented size.},
 author = {Oliehoek, Frans A. and Whiteson, Shimon and Spaan, Matthijs T. J.},
 pages = {653-663},
-title = {Exploiting Structure in Cooperative Bayesian Games},
+title = {Exploiting Structure in Cooperative {B}ayesian Games},
 year = {2012}
 }
 
@@ -596,7 +596,7 @@ year = {2012}
 abstract = {The goal of phylodynamics, an area on the intersection of phylogenetics and population genetics, is to reconstruct population size dynamics from genetic data. Recently, a series of nonparametric Bayesian methods have been proposed for such demographic reconstructions. These methods rely on prior specifications based on Gaussian processes and proceed by approximating the posterior distribution of population size trajectories via Markov chain Monte Carlo (MCMC) methods. In this paper, we adapt an integrated nested Laplace approximation (INLA), a recently proposed approximate Bayesian inference for latent Gaussian models, to the estimation of population size trajectories. We show that when a genealogy of sampled individuals can be reliably estimated from genetic data, INLA enjoys high accuracy and can replace MCMC entirely. We demonstrate significant computational efficiency over the state-of-the-art MCMC methods. We illustrate INLA-based population size inference using simulations and genealogies of hepatitis C and human influenza viruses.},
 author = {Palacios, Julia A. and Minin, Vladimir N.},
 pages = {725-734},
-title = {Integrated Nested Laplace Approximation for Bayesian Nonparametric Phylodynamics},
+title = {Integrated Nested {L}aplace Approximation for {B}ayesian Nonparametric Phylodynamics},
 year = {2012}
 }
 
@@ -636,7 +636,7 @@ year = {2012}
 abstract = {Shotgun proteomics is a high-throughput technology used to identify unknown proteins in a complex mixture. At the heart of this process is a prediction task, the spectrum identification problem, in which each fragmentation spectrum produced by a shotgun proteomics experiment must be mapped to the peptide (protein subsequence) which generated the spectrum. We propose a new algorithm for spectrum identification, based on dynamic Bayesian networks, which significantly outperforms the de-facto standard tools for this task: SEQUEST and Mascot.},
 author = {Singh, Ajit P. and Halloran, John and Bilmes, Jeff A. and Kirchoff, Katrin and Noble, William S.},
 pages = {774-784},
-title = {Spectrum Identification using a Dynamic Bayesian Network Model of Tandem Mass Spectra},
+title = {Spectrum Identification using a Dynamic {B}ayesian Network Model of Tandem Mass Spectra},
 year = {2012}
 }
 
@@ -652,7 +652,7 @@ year = {2012}
 abstract = {Dual decomposition provides a tractable framework for designing algorithms for finding the most probable (MAP) configuration in graphical models. However, for many real-world inference problems, the typical decomposition has a large integrality gap, due to frustrated cycles. One way to tighten the relaxation is to introduce additional constraints that explicitly enforce cycle consistency. Earlier work showed that cluster-pursuit algorithms, which iteratively introduce cycle and other higherorder consistency constraints, allows one to exactly solve many hard inference problems. However, these algorithms explicitly enumerate a candidate set of clusters, limiting them to triplets or other short cycles. We solve the search problem for cycle constraints, giving a nearly linear time algorithm for finding the most frustrated cycle of arbitrary length. We show how to use this search algorithm together with the dual decomposition framework and clusterpursuit. The new algorithm exactly solves MAP inference problems arising from relational classification and stereo vision.},
 author = {Sontag, David and Choe, Do Kook and Li, Yitao},
 pages = {794-803},
-title = {Efficiently Searching for Frustrated Cycles in MAP Inference},
+title = {Efficiently Searching for Frustrated Cycles in {MAP} Inference},
 year = {2012}
 }
 
@@ -660,7 +660,7 @@ year = {2012}
 abstract = {Stochastic domains often involve risk-averse decision makers. While recent work has focused on how to model risk in Markov decision processes using risk measures, it has not addressed the problem of solving large risk-averse formulations. In this paper, we propose and analyze a new method for solving large risk-averse MDPs with hybrid continuous-discrete state spaces and continuous action spaces. The proposed method iteratively improves a bound on the value function using a linearity structure of the MDP. We demonstrate the utility and properties of the method on a portfolio optimization problem.},
 author = {Petrik, Marek and Subramanian, Dharmashankar},
 pages = {804-813},
-title = {An Approximate Solution Method for Large Risk-Averse Markov Decision Processes},
+title = {An Approximate Solution Method for Large Risk-Averse {M}arkov Decision Processes},
 year = {2012}
 }
 
@@ -668,7 +668,7 @@ year = {2012}
 abstract = {A market-maker-based prediction market lets forecasters aggregate information by editing a consensus probability distribution either directly or by trading securities that pay off contingent on an event of interest. Combinatorial prediction markets allow trading on any event that can be specified as a combination of a base set of events. However, explicitly representing the full joint distribution is infeasible for markets with more than a few base events. A factored representation such as a Bayesian network (BN) can achieve tractable computation for problems with many related variables. Standard BN inference algorithms, such as the junction tree algorithm, can be used to update a representation of the entire joint distribution given a change to any local conditional probability. However, in order to let traders reuse assets from prior trades while never allowing assets to become negative, a BN based prediction market also needs to update a representation of each user's assets and find the conditional state in which a user has minimum assets. Users also find it useful to see their expected assets given an edit outcome. We show how to generalize the junction tree algorithm to perform all these computations.},
 author = {Sun, Wei and Hanson, Robin and Laskey, Kathryn Blackmond and Twardy, Charles},
 pages = {814-823},
-title = {Probability and Asset Updating using Bayesian Networks for Combinatorial Prediction Markets},
+title = {Probability and Asset Updating using {B}ayesian Networks for Combinatorial Prediction Markets},
 year = {2012}
 }
 
@@ -700,7 +700,7 @@ year = {2012}
 abstract = {Understanding the adaptation process of plants to drought stress is essential in improving management practices, breeding strategies as well as engineering viable crops for a sustainable agriculture in the coming decades. Hyper-spectral imaging provides a particularly promising approach to gain such understanding since it allows to discover non-destructively spectral characteristics of plants governed primarily by scattering and absorption characteristics of the leaf internal structure and biochemical constituents. Several drought stress indices have been derived using hyper-spectral imaging. However, they are typically based on few hyper-spectral images only, rely on interpretations of experts, and consider few wavelengths only. In this study, we present the first data-driven approach to discovering spectral drought stress indices, treating it as an unsupervised labeling problem at massive scale. To make use of short range dependencies of spectral wavelengths, we develop an online variational Bayes algorithm for latent Dirichlet allocation with convolved Dirichlet regularizer. This approach scales to massive datasets and, hence, provides a more objective complement to plant physiological practices. The spectral topics found conform to plant physiological knowledge and can be computed in a fraction of the time compared to existing LDA approaches.},
 author = {Wahabzada, Mirwaes and Kersting, Kristian and Bauckhage, Christian and Roemer, Christoph and Ballvora, Agim and Pinto, Francisco and Rascher, Uwe and Leon, Jens and Ploemer, Lutz},
 pages = {851-861},
-title = {Latent Dirichlet Allocation Uncovers Spectral Characteristics of Drought Stressed Plants},
+title = {Latent {D}irichlet Allocation Uncovers Spectral Characteristics of Drought Stressed Plants},
 year = {2012}
 }
 
@@ -748,7 +748,7 @@ year = {2012}
 abstract = {In many applications that require matrix solutions of minimal rank, the underlying cost function is non-convex leading to an intractable, NP-hard optimization problem. Consequently, the convex nuclear norm is frequently used as a surrogate penalty term for matrix rank. The problem is that in many practical scenarios there is no longer any guarantee that we can correctly estimate generative low-rank matrices of interest, theoretical special cases notwithstanding. Consequently, this paper proposes an alternative empirical Bayesian procedure build upon a variational approximation that, unlike the nuclear norm, retains the same globally minimizing point estimate as the rank function under many useful constraints. However, locally minimizing solutions are largely smoothed away via marginalization, allowing the algorithm to succeed when standard convex relaxations completely fail. While the proposed methodology is generally applicable to a wide range of low-rank applications, we focus our attention on the robust principal component analysis problem (RPCA), which involves estimating an unknown low-rank matrix with unknown sparse corruptions. Theoretical and empirical evidence are presented to show that our method is potentially superior to related MAP-based approaches, for which the convex principle component pursuit (PCP) algorithm (Candes et al., 2011) can be viewed as a special case.},
 author = {Wipf, David},
 pages = {913-922},
-title = {Non-Convex Rank Minimization via an Empirical Bayesian Approach},
+title = {Non-Convex Rank Minimization via an Empirical {B}ayesian Approach},
 year = {2012}
 }
 
@@ -756,7 +756,7 @@ year = {2012}
 abstract = {Recently two search algorithms, A* and breadth-first branch and bound (BFBnB), were developed based on a simple admissible heuristic for learning Bayesian network structures that optimize a scoring function. The heuristic represents a relaxation of the learning problem such that each variable chooses optimal parents independently. As a result, the heuristic may contain many directed cycles and result in a loose bound. This paper introduces an improved admissible heuristic that tries to avoid directed cycles within small groups of variables. A sparse representation is also introduced to store only the unique optimal parent choices. Empirical results show that the new techniques significantly improved the efficiency and scalability of A* and BFBnB on most of datasets tested in this paper.},
 author = {Yuan, Changhe and Malone, Brandon},
 pages = {923-932},
-title = {An Improved Admissible Heuristic for Learning Optimal Bayesian Networks},
+title = {An Improved Admissible Heuristic for Learning Optimal {B}ayesian Networks},
 year = {2012}
 }
 
